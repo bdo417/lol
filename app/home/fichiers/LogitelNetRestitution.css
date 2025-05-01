@@ -1,0 +1,1481 @@
+
+#div_NET2G input + i {
+    text-transform: uppercase;
+}
+
+.tableauBodyEcriture1 input:nth-child(2) {
+    margin-right: 50px;
+}
+.tableauBodyEcriture1 input + i {
+    text-transform: uppercase;
+    color: #9a9a9a;
+}
+
+.tableauBodyEcriture1 ul:nth-child(1n+1){
+    padding: 10px 0 25px 40px;
+}
+
+td.tableauBodyEcriture1 a {
+ padding-left: 40px;
+}
+
+
+#div_NET2G td.tableauBodyEcriture1 > a{
+    position: relative;
+}
+
+#div_NET2G td.tableauBodyEcriture1 > a:before {
+    background-image: url(/img/restitution/ico_nav_fin.png);
+    content: "";
+    background-repeat: no-repeat;
+    top: 50%;
+    margin-top: -3px;
+    height: 12px;
+    width: 12px;
+    background-size: 9px;
+    left: 25px;
+    position: absolute;
+}
+
+.tableauBodyEcriture1 input[type="radio"]:first-of-type {
+    margin-right: 60px;
+}
+
+img[width="590"][height="35"], img[usemap="#mapOnglet"], img[height="5"] {
+    display: none!important;
+}
+
+
+#div_NET2G option.comboOptionRole {
+    background-color: #f2f2f2;
+    text-transform: uppercase;
+}
+
+/*Suivre les demandes */
+tr.fond_ligne td[width="54"].tableauIFrameEcriture6 {
+    text-align: center!important;
+    padding: 0;
+}
+tr.fond_ligne td[width="59"].tableauIFrameEcriture5 {
+    text-align: center!important;
+    padding: 0;
+}
+
+.tableauIFrameEcriture5 div {
+    width:auto!important;
+}
+
+/* SELECTEUR DE LA LIGNE DE TABLEAU CONTENANT LE BOUTON */
+
+/* Bouton img */
+/*#div_NET2G div > a > img {
+    width: auto;
+    height: auto;
+    margin: 60px 0;
+}*/
+
+#div_NET2G td[width="570"][height="35"]{
+    border-top: 1px solid #e5e6ea;
+}
+
+
+#div_NET2G .cadre td[width="440"] {
+    border: 0;
+    padding: 0px!important;
+}
+
+
+#div_NET2G td[width="130"] {
+    width: 16%;
+}
+#div_NET2G .cadre td[width="130"] div > a > img{
+    text-align: right;
+    margin:0;
+    padding: 0;
+}
+
+img[width="590"][height="5"], img[width="570"][height="5"], img[width="570"][height="7"] {
+    display: none;
+}
+
+#div_NET2G table[width="570"] a img[width="12"][height="12"] {
+    margin: 0;
+}
+
+td.colorBlanc[width="570"] div.tableauBodyEcriture1 {
+    border: none!important;
+}
+
+td[width="440"] div.tableauBodyEcriture1 {
+    border: none;
+}
+
+
+td.colorBlanc[width="570"] div.tableauBodyEcriture1 {
+    border: none!important;
+}
+
+
+td[width="570"].tableauBodyEcriture1 {
+    /*padding: 20px 30px;*/
+    padding: 30px;
+    border: 1px solid #e5e6ea;
+    color: #333333;
+}
+
+
+td[width="570"].tableauBodyEcriture1 ul {
+    list-style-type: disc!important;
+}
+
+
+td[width="570"].net2g_titre_tab .tableauHeadEcriture1/*,  td[width="490"] .tableauBodyEcriture1 , td[width="80"] .tableauBodyEcriture1*/ {
+    text-align: left!important;
+}
+
+
+
+
+td.tableauHeadEcriture2 ul{
+    padding: 15px 0 15px 35px;
+}
+
+/* Suppression du border sur téléchargement ( A valider )*/
+#div_NET2G .n2g_separateur_zones_milieu_bas{
+    border-bottom: none;
+}
+
+/*.net2g_titre_tab:last-of-type {
+    border-top:none; 
+}*/
+
+.ugds_per_cptBen_supprimer table.fond_tableau,
+.ugds_per_cptBen_classer table.fond_tableau {
+    border-left: 1px solid #e5e6ea!important;
+    border-right: 1px solid #e5e6ea!important;
+}
+
+.ugds_per_cptBen_modifier_liste #div_NET2G select {
+    padding: 10px 53px 10px 10px;
+}
+
+
+table.fond_tableau tr.tableauBodyEcriture1 td,
+td.colorBlanc div.tableauBodyEcriture1,
+.ugds_per_cpt_classer td.colorBlanc div.tableauBodyEcriture1 {
+    padding: 30px 0;
+}
+
+.Encours {
+    font-size: 0.8em;
+    color:#858f8f;
+}
+
+.fond_cadre_signature {
+	background-color: #CCCCCC;
+}
+.form_etr_edit {
+	padding-left: 1px;
+	background-color: white;
+	border: 1px solid #7f9db9;
+}
+.form_etr_noedit {
+	padding-left: 1px;
+	background-color: #EBEBEB;
+	border: 1px solid #7f9db9;
+	readOnly: readOnly;
+}
+.form_etr_affiche {
+	padding-left: 1px;
+	background-color: white;
+	border: 0 none #7f9db9;
+	readOnly: readOnly;
+}
+.compte {
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom:5px;
+	width: 543px;
+	display: block;
+	border: thin solid #000000;
+	padding: 5px;
+}
+
+
+        td[width="200"].net2g_titre_tab div, 
+        td[width="200"].net2g_titre_tab + .net2g_titre_tab div, 
+        td[width="200"].net2g_titre_tab + .net2g_titre_tab + .net2g_titre_tab div, 
+        td[width="200"].net2g_titre_tab + .net2g_titre_tab + .net2g_titre_tab + .net2g_titre_tab div,
+        td[width="182"].net2g_titre_tab div, 
+        td[width="182"].net2g_titre_tab + .net2g_titre_tab div, 
+        td[width="182"].net2g_titre_tab + .net2g_titre_tab + .net2g_titre_tab div, 
+        td[width="182"].net2g_titre_tab + .net2g_titre_tab + .net2g_titre_tab + .net2g_titre_tab div,
+        td[width="195"].net2g_titre_tab div, 
+        td[width="195"].net2g_titre_tab + .net2g_titre_tab div, 
+        td[width="195"].net2g_titre_tab + .net2g_titre_tab + .net2g_titre_tab div, 
+        td[width="195"].net2g_titre_tab + .net2g_titre_tab + .net2g_titre_tab + .net2g_titre_tab div,
+        td[width="195"].net2g_titre_tab + .net2g_titre_tab + .net2g_titre_tab + .net2g_titre_tab  + .net2g_titre_tab div,
+        td[width="195"].net2g_titre_tab + .net2g_titre_tab + .net2g_titre_tab + .net2g_titre_tab  + .net2g_titre_tab + .net2g_titre_tab div
+        {
+            text-align: left;
+        }
+
+
+
+
+#div_NET2G table[width="590"] table table tr:nth-child(5) > td.tableauSelect1:first-child {
+    border:none;
+    padding: 0;
+}
+/*#div_NET2G table[width="590"] table table tr:nth-child(5) > td.tableauSelect1:first-child div#logicielFull {
+    border-bottom: 1px solid #e5e6ea;
+    border-top: 1px solid #e5e6ea;
+    padding: 30px;
+}*/
+
+#div_NET2G table[width="590"] table tr:nth-child(5) > td > table[width="570"] {
+    border-left:  1px solid #cccccc;
+    border-right:  1px solid #cccccc;
+}
+#div_NET2G table[width="590"] table tr:nth-child(5) > td.tableauSelect1 > table[width="570"] {
+    border-left: 1px solid #e5e6ea;
+    border-right: 1px solid #e5e6ea;
+}
+
+#div_NET2G table[width="590"] table table tr:nth-child(4) > td > table[width="570"] tr:first-child{
+    border-left: 1px solid #ffffff;
+}
+
+#div_NET2G table[width="590"] table table tr:nth-child(4) > td > table[width="570"] tr:nth-child(3){
+    border-top: 1px solid #cccccc;
+}
+
+#div_NET2G table[width="590"] table table tr:nth-child(4) > td > table[width="570"] tr:nth-child(3) td > div{
+    padding-top: 25px;
+    padding-bottom: 0;
+}
+
+#div_NET2G table[width="590"] table table tr:nth-child(4) > td > table[width="570"] tr:nth-child(4) td > div{
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+
+#div_NET2G table[width="590"] table table tr:nth-child(4) > td > table[width="570"]{
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+}
+
+
+#div_NET2G table[width="590"] table table tr:nth-child(6) > td > table[width="570"] tr:last-child {
+    display: none;
+}
+
+
+    tr.fond_ligne td img {
+        display: none;
+    }
+
+
+
+
+/* REFONTE DES FORMULAIRES */
+
+
+span.tableauHeadEcriture1 {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+
+/*FIN IMPRESSION RIB*/
+
+
+
+
+ 
+
+/*Liste des comptes */
+.ugds_cns_listeprestation #div_NET2G .LGNTableRow{
+    background-color: transparent!important;
+}
+
+.ugds_cns_listeprestation #div_NET2G tr.LGNTableRow:hover,
+.ugds_rce_derniers_releves #div_NET2G tr.LGNTableRow:hover{
+    background: #eeeeee!important;
+}
+
+/*.ugds_cns_listeprestation #div_NET2G .cadre .LGNTableA th{
+    white-space: nowrap;
+}*/
+.ugds_cns_listeprestation #div_NET2G .cadre .LGNTableA th#Libelle{
+    padding-left: 32px!important;
+}
+
+/*------------------------------*/
+
+/* CLasser les comptes & afficher les comptes */
+
+.ugds_per_cpt_classer td.colorBlanc[width="380"]{
+    width: auto!important;
+}
+
+.ugds_per_cpt_classer td.colorBlanc[width="190"] > div.tableauBodyEcriture1{
+    text-align: left;
+}
+
+.ugds_per_cpt_classer td.colorBlanc[width="380"] > div.tableauBodyEcriture1{
+    width: auto;
+}
+
+.ugds_per_cpt_classer #div_NET2G select,
+.ugds_per_cptBen_classer #div_NET2G select {
+    box-shadow: none;
+    font-size: 1.125em;
+}
+
+
+.ugds_per_cpt_classer .net2g_titre_tab{
+    float: none;
+    width: 50%!important;
+    height: 100px;
+    line-height: 42px;
+}
+
+.ugds_per_cpt_classer .net2g_ssTitre1_tab select, .ugds_per_cpt_classer .net2g_titre_tab select,
+.ugds_per_cptBen_classer .net2g_ssTitre1_tab select, .ugds_per_cptBen_classer .net2g_titre_tab select {
+    margin-left: 10px;
+}
+
+.ugds_per_cpt_classer .net2g_ssTitre1_tab select,
+.ugds_per_cptBen_classer .net2g_ssTitre1_tab select  {
+    padding: 7px 43px 6px 10px
+}
+    
+
+    .ugds_per_cpt_classer .net2g_ssTitre1_tab select,
+    .ugds_per_cptBen_classer .net2g_ssTitre1_tab select {
+        box-shadow:none;
+    }
+
+
+.ugds_per_cpt_classer td[width="570"] table[width="570"] tbody tr:nth-child(2) td.net2g_titre_tab,
+.ugds_per_cpt_afficher td[width="570"] table[width="570"] tbody tr:nth-child(2) td.net2g_titre_tab{
+    border-top:none;
+}
+
+.ugds_per_cpt_classer td[align="center"][height="30"],
+.ugds_per_cpt_afficher td[align="center"][height="30"]{
+    border-top: 1px solid #e5e6ea;
+}
+
+
+
+.ugds_per_cpt_afficher td[align="center"].colorBlanc div.tableauBodyEcriture1{
+    text-align: center;
+}
+
+.ugds_per_cpt_afficher .colorBlanc .tableauBodyEcriture1 > a{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 100px;
+}
+
+.ugds_per_cpt_afficher .colorBlanc .tableauBodyEcriture1 > a:before {
+    background-image: url(/img/restitution/ico_nav_fin.png);
+    content: "";
+    background-repeat: no-repeat;
+    top: 50%;
+    margin-top: -3px;
+    height: 12px;
+    width: 12px;
+    left: 0;
+    position: absolute;
+    background-size: 9px;
+}
+
+.ugds_per_cpt_afficher #div_NET2G table[width="570"] a img {
+        margin: 45px 0px 70px 0;
+}
+
+
+/*Intituler les comptes */
+
+.ugds_per_cpt_intituler td.net2g_ssTitre1_tab,
+.ugds_per_cpt_afficher table td.net2g_ssTitre1_tab,
+.ugds_per_cpt_classer table td.net2g_ssTitre1_tab {
+    text-transform: none;
+}
+
+.ugds_per_cpt_intituler .left {
+    float: none;
+    text-align: center;
+}
+
+.ugds_per_cpt_classer .left {
+    float: none;
+    text-align: center;
+}
+
+.ugds_per_cptBen_supprimer .fond_tableau .tableauBodyEcriture1 td:nth-child(3),
+.ugds_per_cptBen_classer .fond_tableau .tableauBodyEcriture1 td:nth-child(3){
+    width: 4%;
+}
+
+.ugds_per_cptBen_supprimer .fond_tableau .tableauBodyEcriture1 td:nth-child(2),
+.ugds_per_cptBen_classer .fond_tableau .tableauBodyEcriture1 td:nth-child(2){
+    width: 30%!important;
+}
+
+.ugds_per_cpt_intituler .sepa_headerMenu + table tr.tableauBodyEcriture1:nth-child(2) td,
+.ugds_per_cptBen_supprimer table tr.tableauBodyEcriture1:last-child td,
+.ugds_per_cptBen_classer table tr.tableauBodyEcriture1:last-child td {
+    padding-top: 0;
+    padding-bottom: 30px; 
+}
+
+.ugds_per_cptBen_ajouterFrBic .sepa-popin-component  span.sepa_img_arrowPopin{
+    background-position: -6px -7px;
+    width: 24px;
+    height: 24px;
+    margin: -10px 20px 0 0;
+}
+
+.ugds_per_cptBen_classer table tr.tableauBodyEcriture1:last-child td,
+.ugds_per_cptBen_supprimer table tr.tableauBodyEcriture1:last-child td{
+   max-width: 500px;
+}
+
+.ugds_per_cptBen_supprimer table tr.tableauBodyEcriture1 td,
+.ugds_per_cptBen_classer table tr.tableauBodyEcriture1 td {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.ugds_per_cpt_intituler .sepa_headerMenu + table tr.tableauBodyEcriture1:first-child td,
+.ugds_per_cptBen_supprimer table tr.tableauBodyEcriture1:first-child td,
+.ugds_per_cptBen_classer table tr.tableauBodyEcriture1:first-child td {
+    padding-bottom: 0;
+    padding-top: 30px
+}
+
+/*.ugds_per_cpt_afficher .sepa_headerMenu + table td.net2g_ssTitre1_tab:last-child,
+.ugds_per_cpt_intituler .sepa_headerMenu + table tr.tableauBodyEcriture1 td:last-child,
+.ugds_per_cpt_intituler .sepa_headerMenu + table td.net2g_ssTitre1_tab:last-child,
+.ugds_per_cpt_afficher .fond_tableau .tableauBodyEcriture1 td:last-child,
+.ugds_per_cpt_classer .sepa_headerMenu + table td.net2g_ssTitre1_tab:last-child,
+.ugds_per_cpt_classer .fond_tableau .tableauBodyEcriture1 td:last-child,
+#ugds_supprimerCompte .fond_tableau .tableauBodyEcriture1 td:last-child,
+.ugds_per_cptBen_classer .sepa_headerMenu + table td.net2g_ssTitre1_tab:last-child {
+    width: auto!important;
+}*/
+/*.ugds_per_cpt_intituler td[width="570"] > table[width="570"] tbody tr:nth-child(3) {
+    border-top: 1px solid #e5e6ea;
+}
+.ugds_per_cpt_intituler td[width="570"] > table[width="570"] tbody tr:nth-child(3) {
+   border-top: 1px solid #e5e6ea;
+} */
+
+.ugds_per_cpt_intituler .sepa_headerMenu + table td[height="30"],
+.ugds_per_cpt_classer td[align="center"][height="30"],
+.ugds_per_cptBen_classer td[align="center"][height="30"],
+.ugds_per_cptBen_supprimer td[align="center"][height="30"]{
+    text-align: center;
+}
+
+.ugds_per_cptBen_classer td[align="center"][height="30"] > a > img {
+    margin: 60px 30px 100px 0;
+}
+.ugds_per_cpt_intituler .net2g_titre_tab {
+    border: none;
+    border-bottom: 1px solid #e5e6ea;
+    border-top: 1px solid #e5e6ea;
+    width: 100%!important;
+    padding-top: 60px;
+}
+
+.ugds_per_cpt_intituler td[width="570"] table[width="570"] tr:nth-last-child(5) {
+    border-bottom: 1px solid #e5e6ea;
+}
+
+.ugds_per_cpt_intituler table[width="570"] tr:nth-child(2) .net2g_titre_tab:first-child {
+    border-top: 0;
+    padding-top: 30px;
+}
+
+/*.ugds_per_cpt_intituler .sepa_headerMenu table[width="570"].fond_tableau{
+    width: 72%!important;
+}*/
+
+/*.ugds_per_cpt_intituler .sepa_headerMenu + table tr.tableauBodyEcriture1{
+    width: 30%
+}*/
+/*FIN*/
+
+.ugds_per_cpt_classer .sepa_headerMenu + table td.net2g_ssTitre1_tab:last-child,
+.ugds_per_cptBen_supprimer table td.net2g_ssTitre1_tab:last-child div.tableauBodyEcriture1,
+.ugds_per_cptBen_classer table td.net2g_ssTitre1_tab:last-child div.tableauBodyEcriture1 {
+    font-family: "sourcesanspro-regular",Helvetica,sans-serif!important;
+}
+
+.ugds_per_cpt_intituler .sepa_headerMenu + table td.net2g_ssTitre1_tab:first-child,
+.ugds_per_cpt_intituler .sepa_headerMenu + table td.net2g_ssTitre1_tab:last-child,
+.ugds_per_cpt_classer .sepa_headerMenu + table td.net2g_ssTitre1_tab:last-child,
+.ugds_per_cptBen_supprimer table td.net2g_ssTitre1_tab div.tableauBodyEcriture1,
+.ugds_per_cptBen_classer table td.net2g_ssTitre1_tab div.tableauBodyEcriture1 {
+    font-family: "sourcesanspro-semibold",Helvetica,sans-serif;
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    padding-right: 0!important;
+}
+.ugds_per_cpt_intituler .sepa_headerMenu + table td.net2g_ssTitre1_tab:last-child input{
+    width: 220px;
+    margin: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+/* Suivre les demandes (rce_suivi) */
+
+.ugds_rce_suivi td[width="570"].tableauBodyEcriture1{
+    padding-right: 40%;
+}
+
+.ugds_rce_suivi #div_NET2G table[width="590"] table table tr:nth-child(4) > td > table[width="570"] tr:first-child{
+    border-left: 1px solid #ffffff;
+    background-color: #F7F7F7;
+}
+
+.ugds_rce_suivi tr.fond_ligne td[width="59"].tableauIFrameEcriture5 {
+    text-align: left!important;
+    padding: 0;
+}
+
+/*Masquer le titre "suivre les demandes ( présent dans le header )*/
+.ugds_rce_suivi table[width="590"]  table[width="570"] td[width="520"]{
+    display: none;
+}
+
+/* Ajout d'un padding spécifique à cette ligne pour simuler un espacement */
+.ugds_rce_suivi table[width="590"] table table table tr:nth-child(3) td[width="570"]{
+    padding: 20px;
+}
+
+/* Remplace le libellé début d'accès avec le <br/> en dur */
+.ugds_rce_suivi table[width="590"] table table tr:nth-child(4) > td > table[width="570"] td:nth-child(4):before{
+    content: "D\00E9 but d'acc\00E8s";
+}
+
+.ugds_rce_suivi table[width="590"] table table tr:nth-child(4) > td > table[width="570"] td:nth-child(5):before{
+    content: "Fin d'acc\00E8s";
+}
+
+.ugds_rce_suivi table[width="590"] table table tr:nth-child(4) > td > table[width="570"] td:nth-child(4) > div,
+table[width="590"] table table tr:nth-child(4) > td > table[width="570"] td:nth-child(5) > div{
+    display: none;
+}
+
+
+.ugds_rce_suivi .net2g_ssTitre1_tab div.tableauHeadEcriture2 > a > img{
+    margin-left: 10px!important;
+}
+
+/*FIN SUIVRE LES DEMANDES */
+
+
+/*Masquer le libellé Sélectionner le ( ou les ) compte(s)*/
+.ugds_rce_recherche table tr:nth-child(7) table tr:first-child{
+    display: none;
+}
+
+
+/*Details de la prestation */
+
+.ugds_cns_detailCARTE_CEM .LGNTableHead.left + .ombreTableau + .LGNTableHead.left,
+.ugds_cns_detailCARTE .LGNTableHead.left + .ombreTableau + .LGNTableHead.left,
+.ugds_cns_detailCARTE_CVP .LGNTableHead.left + .ombreTableau + .LGNTableHead.left,
+.ugds_cns_detailCARTE_ALT .LGNTableHead.left + .ombreTableau + .LGNTableHead.left {
+    margin-top: 10px;
+}
+
+.ugds_cns_detailCARTE_CEM div#caracDetailsView div.LGNTableHead:nth-child(5),
+.ugds_cns_detailCARTE div#caracDetailsView div.LGNTableHead:nth-child(5),
+.ugds_cns_detailCARTE_CVP div#caracDetailsView div.LGNTableHead:nth-child(5),
+.ugds_cns_detailCARTE_ALT div#caracDetailsView div.LGNTableHead:nth-child(5) {
+    padding-top: 50px!important;
+    border-top: solid 2px #dddddd;
+    margin-top: 30px;
+    margin-bottom: 0;
+} 
+/*.ugds_cns_detailCARTE_CEM div#caracDetailsView div.LGNTableHead:nth-child(6){
+    margin-bottom: 0;
+    margin-top: 10px;
+}*/
+
+.ugds_cns_detailCARTE_CEM #div_NET2G option,
+.ugds_cns_detailCARTE #div_NET2G option,
+.ugds_cns_detailCARTE_CVP #div_NET2G option,
+.ugds_cns_detailCARTE_ALT #div_NET2G option {
+    background-color: #ffffff;
+    text-transform: none;
+}
+
+.ugds_cns_detailCARTE_CEM #div_NET2G optgroup.comboOptionRole,
+.ugds_cns_detailCARTE #div_NET2G optgroup.comboOptionRole,
+.ugds_cns_detailCARTE_CVP #div_NET2G optgroup.comboOptionRole,
+.ugds_cns_detailCARTE_ALT #div_NET2G optgroup.comboOptionRole {
+    background-color: #f2f2f2;
+    text-transform: uppercase;
+}
+
+.ugds_cns_detailCARTE_CEM .LGNTableA tr:last-child.LGNTableRow td:last-child:after,
+.ugds_cns_detailCARTE_CEM .LGNTableA tr:last-child.LGNTableRow td:first-child:after,
+.ugds_cns_detailCARTE .LGNTableA tr:last-child.LGNTableRow td:last-child:after,
+.ugds_cns_detailCARTE .LGNTableA tr:last-child.LGNTableRow td:first-child:after,
+.ugds_cns_detailCARTE_CVP .LGNTableA tr:last-child.LGNTableRow td:last-child:after,
+.ugds_cns_detailCARTE_CVP .LGNTableA tr:last-child.LGNTableRow td:first-child:after,
+.ugds_cns_detailCARTE_ALT .LGNTableA tr:last-child.LGNTableRow td:last-child:after,
+.ugds_cns_detailCARTE_ALT .LGNTableA tr:last-child.LGNTableRow td:first-child:after {
+    border-bottom: none;
+}
+
+
+.ugds_cns_detailCARTE_CEM div[style*="padding-top: 10px"],
+.ugds_cns_detailCARTE div[style*="padding-top: 10px"],
+.ugds_cns_detailCARTE_CVP div[style*="padding-top: 10px"],
+.ugds_cns_detailCARTE_ALT div[style*="padding-top: 10px"]{
+    padding-top: 65px!important;
+    clear: both;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 60px;
+}
+
+.ugds_cns_detailCARTE_CEM #div_NET2G input[type="button"],
+.ugds_cns_detailCARTE #div_NET2G input[type="button"],
+.ugds_cns_detailCARTE_CVP #div_NET2G input[type="button"],
+.ugds_cns_detailCARTE_ALT #div_NET2G input[type="button"] {
+    padding: 0.75em 1em;
+    width: 426px;
+    font-size: 1.0625em;
+    line-height: 1;
+    font-family: "sourcesanspro-semibold", helvetica, arial, sans-serif;
+    text-align: center;
+    color: #f05b6f;
+    border-radius: 50px;
+    border: solid 2px #f05b6f;
+    box-shadow: none;
+}
+
+.ugds_cns_detailCARTE #div_NET2G input[type="button"]:hover {
+    border-color: #333;
+    color: #333;
+}
+
+.ugds_cns_detailCARTE_CEM div.pb_myProgress + div + div > span > b,
+.ugds_cns_detailCARTE div.pb_myProgress + div + div > span > b,
+.ugds_cns_detailCARTE_CVP div.pb_myProgress + div + div > span > b,
+.ugds_cns_detailCARTE_ALT div.pb_myProgress + div + div > span > b,
+.left > div > b{
+    font-weight: normal!important;
+}
+    .ugds_cns_detailCARTE_CEM div.pb_myProgress + div + div,
+    .ugds_cns_detailCARTE div.pb_myProgress + div + div,
+    .ugds_cns_detailCARTE_CVP div.pb_myProgress + div + div,
+    .ugds_cns_detailCARTE_ALT div.pb_myProgress + div + div {
+        text-align: left!important;
+        padding-top: 45px;
+    }
+
+        .ugds_cns_detailCARTE_CEM div.pb_myProgress + div + div > span,
+        .ugds_cns_detailCARTE div.pb_myProgress + div + div > span,
+        .ugds_cns_detailCARTE_CVP div.pb_myProgress + div + div > span,
+        .ugds_cns_detailCARTE_ALT div.pb_myProgress + div + div > span {
+            font-size: 1.315em!important;
+            font-family: "sourcesanspro-semibold", helvetica, arial, sans-serif;
+        }
+
+
+.ugds_cns_detailCARTE_CEM div.LGNTableHead.left + div.left > div b,
+.ugds_cns_detailCARTE_CEM div.LGNTableHead.left + div.left div,
+.ugds_cns_detailCARTE div.LGNTableHead.left + div.left > div b,
+/*.ugds_cns_detailCARTE div.LGNTableHead.left + div.left div,*/
+.ugds_cns_detailCARTE_CVP div.LGNTableHead.left + div.left > div b,
+.ugds_cns_detailCARTE_CVP div.LGNTableHead.left + div.left div,
+.ugds_cns_detailCARTE_ALT div.LGNTableHead.left + div.left > div b,
+/*.ugds_cns_detailCARTE_ALT div.LGNTableHead.left + div.left div,
+.left > div*/ {
+    font-size: 1.315em;
+    font-family: "sourcesanspro-regular", helvetica, arial, sans-serif;
+    font-weight: normal!important;
+}
+
+.ugds_cns_detailCARTE_CEM .ongletA .LGNTableHead.left:first-child,
+.ugds_cns_detailCARTE .ongletA .LGNTableHead.left:first-child,
+.ugds_cns_detailCARTE_CVP .ongletA .LGNTableHead.left:first-child,
+.ugds_cns_detailCARTE_ALT .ongletA .LGNTableHead.left:first-child {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.ugds_cns_detailCARTE_CEM .LGNTableHead2.left,
+.ugds_cns_detailCARTE .LGNTableHead2.left,
+.ugds_cns_detailCARTE_CVP .LGNTableHead2.left,
+.ugds_cns_detailCARTE_ALT .LGNTableHead2.left {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 10px!important;
+    padding-top: 10px!important;
+    margin-bottom: 0;
+}
+
+.ugds_cns_detailCARTE_CEM .left div[style*="float: right"],
+.ugds_cns_detailCARTE .left div[style*="float: right"],
+.ugds_cns_detailCARTE_CVP .left div[style*="float: right"],
+.ugds_cns_detailCARTE_ALT .left div[style*="float: right"] {
+    text-align: right!important;
+    margin-right: 40px;
+}
+
+.ugds_cns_detailCARTE_CEM img,
+.ugds_cns_detailCARTE img,
+.ugds_cns_detailCARTE_CVP img,
+.ugds_cns_detailCARTE_ALT img {
+    margin-right: 5px;
+}
+
+.ugds_cns_detailCARTE_CEM .left div[style*="float: right; font-weight: bold; width: 200px"],
+.ugds_cns_detailCARTE .left div[style*="float: right; font-weight: bold; width: 200px"],
+.ugds_cns_detailCARTE_CVP .left div[style*="float: right; font-weight: bold; width: 200px"],
+.ugds_cns_detailCARTE_ALT .left div[style*="float: right; font-weight: bold; width: 200px"] {
+    margin-right: 11px;
+}
+
+.ugds_cns_detailCARTE_CEM table[width="570"] tr td.net2g_titre_tab,
+.ugds_cns_detailCARTE table[width="570"] tr td.net2g_titre_tab,
+.ugds_cns_detailCARTE_CVP table[width="570"] tr td.net2g_titre_tab,
+.ugds_cns_detailCARTE_ALT table[width="570"] tr td.net2g_titre_tab {
+    background-color: #F7F7F7;
+    font-size: 1.5em;
+    color: #4a4a4a;
+    font-family: "sourcesanspro-semibold", helvetica, arial, sans-serif;
+    font-weight: normal;
+    width: 100%!important;
+    padding: 10px 0 10px 40px!important;
+}
+
+.ugds_cns_detailCARTE_CEM .net2g_titre_tab .tableauHeadEcriture1 + .tableauHeadEcriture1,
+.ugds_cns_detailCARTE .net2g_titre_tab .tableauHeadEcriture1 + .tableauHeadEcriture1,
+.ugds_cns_detailCARTE_CVP .net2g_titre_tab .tableauHeadEcriture1 + .tableauHeadEcriture1,
+.ugds_cns_detailCARTE_ALT .net2g_titre_tab .tableauHeadEcriture1 + .tableauHeadEcriture1 {
+    float: none;
+}
+
+.ugds_cns_detailCARTE_CEM td[width="150"].tableauHeadEcriture1,
+.ugds_cns_detailCARTE_CEM td[width="250"].tableauHeadEcriture1,
+.ugds_cns_detailCARTE_CEM td[width="170"].tableauHeadEcriture1,
+.ugds_cns_detailCARTE_CEM .LGNTableHead2.left,
+.ugds_cns_detailCARTE td[width="150"].tableauHeadEcriture1,
+.ugds_cns_detailCARTE td[width="250"].tableauHeadEcriture1,
+.ugds_cns_detailCARTE td[width="170"].tableauHeadEcriture1,
+.ugds_cns_detailCARTE .LGNTableHead2.left,
+.ugds_cns_detailCARTE_CVP td[width="150"].tableauHeadEcriture1,
+.ugds_cns_detailCARTE_CVP td[width="250"].tableauHeadEcriture1,
+.ugds_cns_detailCARTE_CVP td[width="170"].tableauHeadEcriture1,
+.ugds_cns_detailCARTE_CVP .LGNTableHead2.left,
+.ugds_cns_detailCARTE_ALT td[width="150"].tableauHeadEcriture1,
+.ugds_cns_detailCARTE_ALT td[width="250"].tableauHeadEcriture1,
+.ugds_cns_detailCARTE_ALT td[width="170"].tableauHeadEcriture1,
+.ugds_cns_detailCARTE_ALT .LGNTableHead2.left{
+    font-size: 1.125em;
+    color: #4a4a4a;
+    font-family: "sourcesanspro-semibold", helvetica, arial, sans-serif;
+}
+
+.ugds_cns_detailCARTE_CEM .tableauBodyEcriture1,
+.ugds_cns_detailCARTE .tableauBodyEcriture1,
+.ugds_cns_detailCARTE_CVP .tableauBodyEcriture1,
+.ugds_cns_detailCARTE_ALT .tableauBodyEcriture1 {
+    color: #333333;
+    font-size: 1.125em;
+    font-family: "sourcesanspro-regular", helvetica, arial, sans-serif;
+}
+
+.ugds_cns_detailCARTE_CEM td[width="170"].tableauHeadEcriture1,
+.ugds_cns_detailCARTE td[width="170"].tableauHeadEcriture1,
+.ugds_cns_detailCARTE_CVP td[width="170"].tableauHeadEcriture1,
+.ugds_cns_detailCARTE_ALT td[width="170"].tableauHeadEcriture1 {
+    padding-right: 40px!important;
+}
+
+.ugds_cns_detailCARTE_CEM table[width="100%"] tr:nth-child(2) td[width="570"] > table[width="570"],
+.ugds_cns_detailCARTE table[width="100%"] tr:nth-child(2) td[width="570"] > table[width="570"],
+.ugds_cns_detailCARTE_CVP table[width="100%"] tr:nth-child(2) td[width="570"] > table[width="570"],
+.ugds_cns_detailCARTE_ALT table[width="100%"] tr:nth-child(2) td[width="570"] > table[width="570"]{
+    border: solid 1px #e5e6ea;
+}
+
+.ugds_cns_detailCARTE_CEM table[width="100%"] tr:nth-child(2) td[width="570"] > table[width="570"] tr:nth-child(2) > td,
+.ugds_cns_detailCARTE table[width="100%"] tr:nth-child(2) td[width="570"] > table[width="570"] tr:nth-child(2) > td,
+.ugds_cns_detailCARTE_CVP table[width="100%"] tr:nth-child(2) td[width="570"] > table[width="570"] tr:nth-child(2) > td,
+.ugds_cns_detailCARTE_ALT table[width="100%"] tr:nth-child(2) td[width="570"] > table[width="570"] tr:nth-child(2) > td{
+    padding:35px 40px 40px 40px;
+}
+
+.ugds_cns_detailCARTE_CEM #displayCaracteristicViewButton button,
+.ugds_cns_detailCARTE_ALT #displayCaracteristicViewButton button {
+    background-color: #f0596e;
+    width: 324px;
+     height: 42px; 
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 1.125em;
+    padding: 10px;
+    font-family: "sourcesanspro-semibold", helvetica, arial, sans-serif;
+    border: 1px solid #f0596e;
+    cursor: pointer;
+}
+
+.ugds_cns_detailCARTE_CEM select#select1,
+.ugds_cns_detailCARTE select#select1,
+.ugds_cns_detailCARTE_CVP select#select1,
+.ugds_cns_detailCARTE_ALT select#select1 {
+    width: 100%;
+}
+
+.ugds_cns_detailCARTE_CEM #operationsListView,
+.ugds_cns_detailCARTE #operationsListView,
+.ugds_cns_detailCARTE_CVP #operationsListView,
+.ugds_cns_detailCARTE_ALT #operationsListView {
+    padding: 0;
+    margin: 45px 0 0 0;
+}
+
+.ugds_cns_detailCARTE_CEM form[name="Formulaire"],
+.ugds_cns_detailCARTE form[name="Formulaire"],
+.ugds_cns_detailCARTE_CVP form[name="Formulaire"],
+.ugds_cns_detailCARTE_ALT form[name="Formulaire"] {
+    margin: 0 0 45px 0;
+}
+
+#operationsListView table {
+    border-top: 1px solid #e5e6ea!important;
+}
+
+.ugds_cns_detailCARTE_CEM div.LGNTableHead,
+.ugds_cns_detailCARTE_ALT div.LGNTableHead {
+    background-color: transparent!important;
+    height: auto!important;
+    padding: 0!important;
+    position: relative;
+    margin-top: 40px;
+}
+.ugds_cns_detailCARTE_CEM div.LGNTableHead > div,
+.ugds_cns_detailCARTE div.LGNTableHead > div,
+.ugds_cns_detailCARTE_CVP div.LGNTableHead > div,
+/*.ugds_cns_detailCARTE_ALT div.LGNTableHead > div*/{
+    font-size: 1.125em;
+    font-family: "sourcesanspro-semibold", helvetica, arial, sans-serif;
+    text-align: left;
+}
+.ugds_cns_detailCARTE_CEM div.LGNTableHead > div > select,
+.ugds_cns_detailCARTE div.LGNTableHead > div > select,
+.ugds_cns_detailCARTE_CVP div.LGNTableHead > div > select,
+.ugds_cns_detailCARTE_ALT div.LGNTableHead > div > select{
+    margin-left: 30px;
+    vertical-align: middle;
+}
+.ugds_cns_detailCARTE_CEM #div_NET2G div > a > img,
+.ugds_cns_detailCARTE_ALT #div_NET2G div > a > img {
+    margin:0;
+}
+
+.ugds_cns_detailCARTE_CEM table#ListeEcritures,
+.ugds_cns_detailCARTE table#ListeEcritures,
+.ugds_cns_detailCARTE_CVP table#ListeEcritures,
+.ugds_cns_detailCARTE_CALT table#ListeEcritures {
+    margin-bottom: 30px!important;
+}
+
+.ugds_cns_detailCARTE_CEM tr.LGNTableRow.LigneDateEncours td:nth-child(2),
+.ugds_cns_detailCARTE tr.LGNTableRow.LigneDateEncours td:nth-child(2),
+.ugds_cns_detailCARTE_CVP tr.LGNTableRow.LigneDateEncours td:nth-child(2),
+.ugds_cns_detailCARTE_ALT tr.LGNTableRow.LigneDateEncours td:nth-child(2) {
+     font-family: "sourcesanspro-semibold", helvetica, arial, sans-serif;
+}
+
+.ugds_cns_detailCARTE_CEM .LGNTableA .LGNTableHead2 th#Libelle, 
+.ugds_cns_detailCARTE_CEM td[headers="Libelle"],
+.ugds_cns_detailCARTE_CEM .LGNTableRow > td:first-child,
+.ugds_cns_detailCARTE .LGNTableA .LGNTableHead2 th#Libelle, 
+.ugds_cns_detailCARTE td[headers="Libelle"],
+.ugds_cns_detailCARTE .LGNTableRow > td:first-child,
+.ugds_cns_detailCARTE_CVP .LGNTableA .LGNTableHead2 th#Libelle, 
+.ugds_cns_detailCARTE_CVP td[headers="Libelle"],
+.ugds_cns_detailCARTE_CVP .LGNTableRow > td:first-child,
+.ugds_cns_detailCARTE_ALT .LGNTableA .LGNTableHead2 th#Libelle, 
+.ugds_cns_detailCARTE_ALT td[headers="Libelle"],
+.ugds_cns_detailCARTE_ALT .LGNTableRow > td:first-child,
+#ugds_detailsPrestaCompteBancaire .LGNTableRow > td:first-child {
+    padding-left: 30px!important;
+}
+.ugds_cns_detailCARTE_CEM #cadreBoutonOn a, .ugds_cns_detailCARTE_CEM #cadreBoutonOn,
+.ugds_cns_detailCARTE #cadreBoutonOn a, .ugds_cns_detailCARTE #cadreBoutonOn,
+.ugds_cns_detailCARTE_CVP #cadreBoutonOn a, .ugds_cns_detailCARTE_CVP #cadreBoutonOn,
+.ugds_cns_detailCARTE_ALT #cadreBoutonOn a, .ugds_cns_detailCARTE_ALT #cadreBoutonOn {
+    float: none!important;
+    margin: 0!important;
+    display: inline-block;
+    text-align: left!important;
+    vertical-align: middle;
+    position: relative;
+}
+
+.ugds_cns_detailCARTE_CEM div#TextFinHistorique,
+.ugds_cns_detailCARTE div#TextFinHistorique,
+.ugds_cns_detailCARTE_CVP div#TextFinHistorique,
+.ugds_cns_detailCARTE_ALT div#TextFinHistorique {
+    color: #858f8f;
+    font-family: "sourcesanspro-regular", helvetica, arial, sans-serif;
+    font-size: 1.125em;
+    float: right;
+    display: inline-block;
+    vertical-align: bottom;
+    bottom: 0px;
+    position: absolute;
+    right: 0;
+}
+
+.ugds_cns_detailCARTE_CEM table#ListeEcritures tr.LGNTableRow.trGrey:hover, 
+.ugds_cns_detailCARTE_CEM table#ListeEcritures tr.LGNTableRow.trWhite:hover,
+.ugds_cns_detailCARTE table#ListeEcritures tr.LGNTableRow.trGrey:hover, 
+.ugds_cns_detailCARTE table#ListeEcritures tr.LGNTableRow.trWhite:hover,
+.ugds_cns_detailCARTE_CVP table#ListeEcritures tr.LGNTableRow.trGrey:hover, 
+.ugds_cns_detailCARTE_CVP table#ListeEcritures tr.LGNTableRow.trWhite:hover,
+.ugds_cns_detailCARTE_ALT table#ListeEcritures tr.LGNTableRow.trGrey:hover, 
+.ugds_cns_detailCARTE_ALT table#ListeEcritures tr.LGNTableRow.trWhite:hover{
+    background-color: #efefef!important;
+    cursor: auto;
+}
+
+.ugds_cns_detailCARTE_CEM div#cadreBoutonOn a:nth-child(2),
+.ugds_cns_detailCARTE div#cadreBoutonOn a:nth-child(2),
+.ugds_cns_detailCARTE_CVP div#cadreBoutonOn a:nth-child(2),
+.ugds_cns_detailCARTE_ALT div#cadreBoutonOn a:nth-child(2){
+    color: #333333!important;
+    font-family: "sourcesanspro-semibold", helvetica, arial, sans-serif;
+    font-size: 1.125em;
+}
+
+.ugds_cns_detailCARTE_CEM div#cadreBoutonOn a:last-child,
+.ugds_cns_detailCARTE div#cadreBoutonOn a:last-child,
+.ugds_cns_detailCARTE_CVP div#cadreBoutonOn a:last-child,
+.ugds_cns_detailCARTE_ALT div#cadreBoutonOn a:last-child {
+    color: #858f8f!important;
+    font-family: "sourcesanspro-regular", helvetica, arial, sans-serif;
+    font-size: 1.125em;
+}
+
+.ugds_cns_detailCARTE_CEM .LGNTableA .LGNTableHead th, 
+.ugds_cns_detailCARTE_CEM .LGNTableA .LGNTableHead2 th,
+.ugds_cns_detailCARTE .LGNTableA .LGNTableHead th, 
+.ugds_cns_detailCARTE .LGNTableA .LGNTableHead2 th,
+.ugds_cns_detailCARTE_CVP .LGNTableA .LGNTableHead th, 
+.ugds_cns_detailCARTE_CVP .LGNTableA .LGNTableHead2 th,
+.ugds_cns_detailCARTE_ALT .LGNTableA .LGNTableHead th, 
+.ugds_cns_detailCARTE_ALT .LGNTableA .LGNTableHead2 th,
+#ugds_detailsPrestaCompteBancaire .LGNTableA .LGNTableHead th, 
+#ugds_detailsPrestaCompteBancaire .LGNTableA .LGNTableHead2 th {
+    padding: 10px 0 10px 30px!important;
+    background-color: #F7F7F7;
+}
+
+.ugds_cns_detailCARTE_CEM .LGNTableRow td[headers="prestation"],
+.ugds_cns_detailCARTE .LGNTableRow td[headers="prestation"],
+.ugds_cns_detailCARTE_CVP .LGNTableRow td[headers="prestation"],
+.ugds_cns_detailCARTE_ALT .LGNTableRow td[headers="prestation"] {
+    padding-left: 28px!important;
+}
+
+.ugds_cns_detailCARTE_CEM .LGNTableA th:last-child, 
+.ugds_cns_detailCARTE_CEM .LGNTableA  td:last-child,
+.ugds_cns_detailCARTE_CEM .LGNTableHead th:last-child, 
+.ugds_cns_detailCARTE_CEM .LGNTableRow th:last-child,
+.ugds_cns_detailCARTE .LGNTableA th:last-child, 
+.ugds_cns_detailCARTE .LGNTableA  td:last-child,
+.ugds_cns_detailCARTE .LGNTableHead th:last-child, 
+.ugds_cns_detailCARTE .LGNTableRow th:last-child,
+.ugds_cns_detailCARTE_CVP .LGNTableA th:last-child, 
+.ugds_cns_detailCARTE_CVP .LGNTableA  td:last-child,
+.ugds_cns_detailCARTE_CVP .LGNTableHead th:last-child, 
+.ugds_cns_detailCARTE_CVP .LGNTableRow th:last-child,
+.ugds_cns_detailCARTE_ALT .LGNTableA th:last-child, 
+.ugds_cns_detailCARTE_ALT .LGNTableA  td:last-child,
+.ugds_cns_detailCARTE_ALT .LGNTableHead th:last-child, 
+.ugds_cns_detailCARTE_ALT .LGNTableRow th:last-child,
+#ugds_detailsPrestaCompteBancaire .LGNTableA th:last-child, 
+#ugds_detailsPrestaCompteBancaire .LGNTableA  td:last-child,
+#ugds_detailsPrestaCompteBancaire .LGNTableHead th:last-child, 
+#ugds_detailsPrestaCompteBancaire .LGNTableRow th:last-child {
+    padding: 10px 30px 10px 0!important;
+    width: 25%!important;
+    text-align: right;
+    white-space: nowrap;
+}
+
+#ugds_detailsPrestaCompteBancaire .LGNTableA th#Debit {
+    text-align: right;
+}
+
+.ugds_cns_detailCARTE_CEM .LGNTableRow td:last-child{
+    width: 25%!important;
+}
+
+.ugds_cns_detailCARTE_CEM .LGNTableA .LGNTableHead th:first-child, 
+.ugds_cns_detailCARTE_CEM .LGNTableA .LGNTableHead2 th:first-child,
+.ugds_cns_detailCARTE .LGNTableA .LGNTableHead th:first-child, 
+.ugds_cns_detailCARTE .LGNTableA .LGNTableHead2 th:first-child,
+.ugds_cns_detailCARTE_CVP .LGNTableA .LGNTableHead th:first-child, 
+.ugds_cns_detailCARTE_CVP .LGNTableA .LGNTableHead2 th:first-child,
+.ugds_cns_detailCARTE_ALT .LGNTableA .LGNTableHead th:first-child, 
+.ugds_cns_detailCARTE_ALT .LGNTableA .LGNTableHead2 th:first-child,
+#ugds_detailsPrestaCompteBancaire .LGNTableA .LGNTableHead th:first-child {
+    width: 20%!important;
+}
+
+#ugds_detailsPrestaCompteBancaire .LGNTableHead th.left.leftSpacer#libelle,
+#ugds_detailsPrestaCompteBancaire .LGNTableA .LGNTableHead2 th#Date,
+#ugds_detailsPrestaCompteBancaire .LGNTableRow td[headers="Date"] {
+    width: 15%!important;
+}
+
+#ugds_detailsPrestaCompteBancaire .LGNTableA .LGNTableHead2 th:nth-child(2)#Horl,
+#ugds_detailsPrestaCompteBancaire .LGNTableRow td[headers="AVenir"] {
+    width: 5%!important;
+    padding: 10px!important;
+    text-align: center;
+}
+
+#ugds_detailsPrestaCompteBancaire .LGNTableA .LGNTableHead2 th:nth-child(3)#Libelle,
+#ugds_detailsPrestaCompteBancaire .LGNTableRow td[headers="Libelle"] {
+    width: 40%!important;
+    padding-left: 30px!important;
+}
+
+#ugds_detailsPrestaCompteBancaire .LGNTableA .LGNTableHead2 th:nth-child(4)#Debit,
+#ugds_detailsPrestaCompteBancaire .LGNTableRow td[headers="Debit "] {
+    width: 20%!important;
+}
+
+#ugds_detailsPrestaCompteBancaire .LGNTableA .LGNTableHead2 th:last-child#Credit,
+#ugds_detailsPrestaCompteBancaire .LGNTableRow td[headers="Credit "] {
+    width: 20%!important;
+}
+
+.ugds_cns_detailCARTE_CEM #operationsListView .LGNTableHead div.left + div,
+.ugds_cns_detailCARTE #operationsListView .LGNTableHead div.left + div,
+.ugds_cns_detailCARTE_CVP #operationsListView .LGNTableHead div.left + div,
+.ugds_cns_detailCARTE_ALT #operationsListView .LGNTableHead div.left + div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.ugds_cns_detailCARTE_CEM .left,
+.ugds_cns_detailCARTE .left,
+.ugds_cns_detailCARTE_CVP .left,
+.ugds_cns_detailCARTE_ALT .left {
+    text-align: left;
+    clear: both;
+    padding-top: 15px!important;
+    overflow: hidden;
+}
+.ugds_cns_detailCARTE_CEM .LGNTableHead,
+.ugds_cns_detailCARTE .LGNTableHead,
+.ugds_cns_detailCARTE_CVP .LGNTableHead,
+.ugds_cns_detailCARTE_ALT .LGNTableHead{
+    margin-top: 10px;
+}
+/*Fin details de la prestation carte */
+
+
+
+
+
+/*Fin   ----    Details de la prestation - compte bancaire */
+
+/*Derniers relevés */
+
+.ugds_rce_derniers_releves .tableauHeadEcriture1{
+    display: block;
+    margin-bottom: 30px;
+}
+
+/*Fin derniers relevés*/
+
+/*Selectionner les comptes */
+
+
+
+.ugds_rce_abonnement #div_NET2G input[type="radio"] {
+    margin:-3px 10px 0 10px;
+}
+
+.ugds_rce_abonnement #div_NET2G input[type="radio"]:disabled{
+    opacity: 0.5;
+}
+
+/*Fin selectionner les comptes */
+
+
+/*Personnalisation - Modifier Compte Beneficiaire */
+
+.ugds_per_cptBen_modifier_liste #div_NET2G input, 
+.ugds_per_cptBen_modifier_liste #div_NET2G select {
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 1.125em;
+    width: 30%;
+}
+
+/*Personnalisation - Supprimer Compte Beneficiaire
+    Classer Compte Tiers  */
+
+
+        .ugds_per_cptBen_supprimer .net2g_ssTitre1_tab[width="190"]:last-child > div,
+        .ugds_per_cptBen_classer .net2g_ssTitre1_tab[width="140"]:last-child > div {
+            text-align: right!important;
+        }
+
+.ugds_per_cptBen_supprimer  td.onglet > table > tbody > tr > td > table > tbody > tr:nth-last-child(5),
+.ugds_per_cptBen_classer  td.onglet > table > tbody > tr > td > table > tbody > tr:nth-last-child(5) {
+    border-bottom: 1px solid #e5e6ea;
+}
+
+/*Confirmation enregistrement modification - afficher \ masquer les comptes*/
+.ugds_per_cpt_confAfficher table[width="570"] tr:first-child {
+    display: none;
+}
+
+.ugds_per_cpt_confAfficher div.tableauHeadEcriture2 {
+    font-family: "sourcesanspro-semibold", helvetica, arial, sans-serif;
+    font-size: 1.125em;
+    background-image: url(/img/commun/message-validation-icon.png);
+    background-repeat: no-repeat;
+    padding-left: 100px;
+    background-position: left;
+    text-align: left;
+    background-position: 35px;
+    border: solid 1px #d4d8d8;
+    width: 780px!important;
+    padding: 60px 0 60px 135px;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.ugds_per_cpt_confAfficher td[width="570"][height="35"]{
+    border:0;
+}
+
+/* Livret A - refonte bloc caractéristique de la prestation */
+
+.ugds_cns_detailLIVRETA #CaracteristiquePresta .left {
+    color: #333;
+    font-size: 1.125em;
+    clear: both!important;
+   /* border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;*/
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*.ugds_cns_detailLIVRETA #CaracteristiquePresta div.left:nth-of-type(3) span:after {
+    content: 'au 30 de chaque mois';
+    display: inline-block;
+    margin-left: 5px;
+}
+*/
+.ugds_cns_detailLIVRETA #CaracteristiquePresta br,
+.ugds_cns_detailLIVRETA #CaracteristiquePresta div.left:nth-of-type(4) {
+    display: none!important;
+}
+
+.ugds_cns_detailLIVRETA #CaracteristiquePresta .left > div:first-child {
+    color: #333;
+}
+
+.ugds_cns_detailLIVRETA #CaracteristiquePresta .left > div:last-child {
+    float: inherit!important;
+}
+
+.ugds_cns_detailLIVRETA #CaracteristiquePresta .left > div,
+.ugds_cns_detailLIVRETA #CaracteristiquePresta .left {
+    color: #333;
+    font-size: 0.975em;
+}
+
+/*---FIN Livret A - refonte bloc caractéristique de la prestation---*/
+
+
+/* Détail PEP - refonte */
+
+.ugds_cns_detailPep td,
+.ugds_cns_detailPep tr,
+.ugds_cns_detailPep table {
+    border: none!important;
+}
+
+.ugds_cns_detailPep td[width="10"] + td[width="570"] > table[width="570"] {
+    border: 1px solid #ccc!important;
+}
+
+.ugds_cns_detailPep select,
+.ugds_cns_detailPep td.tableauBodyEcriture1,
+.ugds_cns_detailPep div#CaracteristiquePresta div.tableauHeadEcriture2,
+.ugds_cns_detailPep div#CaracteristiquePresta td.couleur_blanc div.tableauBodyEcriture1, {
+    font-size: 0.875em;
+    color: #333;
+}
+
+.ugds_cns_detailPep .net2g_titre_tab > table > tbody > tr > td {
+    font-size: 0.780em!important;
+    color: #333;
+}
+
+.ugds_cns_detailPep td.fond_cellule > table[width="570"] > tbody > tr > td {
+    padding: 10px;
+}
+
+.ugds_cns_detailPep td.net2g_titre_tab > table > tbody > tr > td.tableauHeadEcriture1[width="250"] {
+    padding-right: 10px;
+}
+
+.ugds_cns_detailPep td.net2g_titre_tab td.tableauHeadEcriture1[width="20"] {
+    width: 25px!important
+}
+
+.ugds_cns_detailPep td.net2g_titre_tab td.tableauHeadEcriture1[width="550"] {
+    width: 100%!important;
+}
+
+.ugds_cns_detailPep div#CaracteristiquePresta {
+    width: 100%!important;
+}
+
+.ugds_cns_detailPep div#CaracteristiquePresta td.fond_cellule {
+    padding: 0!important;
+}
+
+.ugds_cns_detailPep td[width="10"] + td[width="570"].net2g_ssTitre1_tab > table[width="570"] {
+    border-top: none!important;
+}
+
+.ugds_cns_detailPep td[width="10"] + td.net2g_ssTitre1_tab div.tableauHeadEcriture2 {
+    background-color: #f6f6f6;
+    padding: 10px;
+    font-size: 0.780em!important;
+    color: #333;
+}
+
+.ugds_cns_detailPep td[width="10"] + td[width="570"].net2g_ssTitre1_tab {
+    padding: 0!important;
+}
+
+/*---FIN Détail PEP - refonte---*/
+
+
+/* Détail PEL - refonte */
+
+.ugds_cns_detailPel td,
+.ugds_cns_detailPel tr,
+.ugds_cns_detailPel table {
+    border: none!important;
+}
+
+.ugds_cns_detailPel td[width="10"] + td[width="570"] > table[width="570"] {
+    border: 1px solid #ccc!important;
+}
+
+.ugds_cns_detailPel select,
+.ugds_cns_detailPel td.tableauBodyEcriture1,
+.ugds_cns_detailPel div#CaracteristiquePresta div.tableauHeadEcriture2,
+.ugds_cns_detailPel div#CaracteristiquePresta td.couleur_blanc div.tableauBodyEcriture1, {
+    font-size: 0.875em;
+    color: #333;
+}
+
+.ugds_cns_detailPel .net2g_titre_tab > table > tbody > tr > td {
+    font-size: 0.780em!important;
+    color: #333;
+}
+
+.ugds_cns_detailPel td.fond_cellule > table[width="570"] > tbody > tr > td {
+    padding: 10px;
+}
+
+.ugds_cns_detailPel td.net2g_titre_tab > table > tbody > tr > td.tableauHeadEcriture1[width="250"] {
+    padding-right: 10px;
+}
+
+.ugds_cns_detailPel td.net2g_titre_tab td.tableauHeadEcriture1[width="20"] {
+    width: 25px!important
+}
+
+.ugds_cns_detailPel td.net2g_titre_tab td.tableauHeadEcriture1[width="550"] {
+    width: 100%!important;
+}
+
+.ugds_cns_detailPel div#CaracteristiquePresta {
+    width: 100%!important;
+}
+
+.ugds_cns_detailPel div#CaracteristiquePresta td.fond_cellule {
+    padding: 0!important;
+}
+
+.ugds_cns_detailPel div#CaracteristiquePresta td.couleur_blanc {
+    padding: 10px;
+}
+
+.ugds_cns_detailPel td[width="10"] + td[width="570"].net2g_ssTitre1_tab > table[width="570"] {
+    border-top: none!important;
+}
+
+.ugds_cns_detailPel td[width="10"] + td.net2g_ssTitre1_tab div.tableauHeadEcriture2 {
+    background-color: #f6f6f6;
+    padding: 10px;
+    font-size: 0.780em!important;
+    color: #333;
+}
+
+.ugds_cns_detailPel td[width="10"] + td[width="570"].net2g_ssTitre1_tab {
+    padding: 0!important;
+}
+
+
+/*---FIN Détail PEL - refonte---*/
+
+
+/* [LGN][Prélèvement][Historique Contestation] message en bleu */
+
+.ugds_prelev_restit_liste_contestations div#listeContestations > div {
+    color: #333!important;
+}
+
+/*---FIN [LGN][Prélèvement][Historique Contestation] message en bleu---*/
+
+
+/* [LGN][Recherche d'écritures] A recharte */
+
+/*.ugds_cns_rechercheEcr table[width="590"] td.onglet div,
+.ugds_cns_rechercheEcr table[width="590"] td.onglet select,
+.ugds_cns_rechercheEcr table[width="590"] td.onglet span.tableauBodyEcriture1 {
+    font-size: 0.875em;
+    color: #333;
+}*/
+
+/*.ugds_cns_rechercheEcr table[width="590"] td.onglet div.tableauHeadEcriture1 {
+    font-size: 0.780em;
+    color: #333;
+}
+*/
+.ugds_cns_rechercheEcr table[width="590"] td.onglet input {
+    font-size: 1em;
+}
+
+.ugds_cns_rechercheEcr td[width="570"] > table[width="570"] {
+    border: 1px solid #ccc;
+    margin-bottom: 20px
+}
+
+.ugds_cns_rechercheEcr td.fond_cellule > table[width="570"] > tbody > tr > td {
+    padding: 10px;
+}
+
+.ugds_cns_rechercheEcr td.fond_cellule > table,
+.ugds_cns_rechercheEcr table[width="590"] td.onglet > table[width="100%"] td,
+.ugds_cns_rechercheEcr table[width="590"] td.onglet > table[width="100%"] tr {
+    border: none!important;
+}
+
+.ugds_cns_rechercheEcr iframe#myiframe {
+    min-height: 200px;
+    width: 100%;
+}
+
+.ugds_cns_detailCARTE div[style="float: left; font-weight: bold;"] {
+    font-weight: normal!important;
+}
+
+
+/* detail carte TASK FORCE */
+
+.ugds_cns_detailCARTE_CEM div[style*="padding-top: 10px"], 
+.ugds_cns_detailCARTE div[style*="padding-top: 10px"], 
+.ugds_cns_detailCARTE_CVP div[style*="padding-top: 10px"], 
+.ugds_cns_detailCARTE_ALT div[style*="padding-top: 10px"] {
+  padding-top: 20px!important;
+  padding-bottom: 30px!important;
+}
+
+.ugds_cns_detailCARTE_CEM div.pb_myProgress + div + div, 
+.ugds_cns_detailCARTE div.pb_myProgress + div + div, 
+.ugds_cns_detailCARTE_CVP div.pb_myProgress + div + div, 
+.ugds_cns_detailCARTE_ALT div.pb_myProgress + div + div {
+    padding-top: 20px;
+}
+
+.ugds_cns_detailCARTE_CEM #operationsListView, 
+.ugds_cns_detailCARTE #operationsListView, 
+.ugds_cns_detailCARTE_CVP #operationsListView, 
+.ugds_cns_detailCARTE_ALT #operationsListView {
+    margin: 0;
+}
+
+div#caracDetailsView div.LGNTableHead.left div  {
+    margin: 0;
+}
+
+div#caracDetailsView div.LGNTableHead.left  {
+    margin: 20px 0 0 0;
+}
+
+div#caracDetailsView div.LGNTableHead.left div b {
+    font-family: "sourcesanspro-semibold", helvetica, arial, sans-serif;
+}
+
+.ugds_cns_detailCARTE_CEM .left, .ugds_cns_detailCARTE .left, .ugds_cns_detailCARTE_CVP .left, .ugds_cns_detailCARTE_ALT .left {
+    padding-top: 5px!important;
+}
+
+div#caracDetailsView br {
+    display: none;
+}
+
+div#caracDetailsView div.ombreTableau {
+    margin: 20px 0;
+}
+
+
+div#caracDetailsView div.left div[style*="float: left"] {
+    text-align: left!important;
+}
+
+
+.ugds_cns_detailCARTE_CEM #div_NET2G input[type="button"], 
+.ugds_cns_detailCARTE #div_NET2G input[type="button"], 
+.ugds_cns_detailCARTE_CVP #div_NET2G input[type="button"], 
+.ugds_cns_detailCARTE_ALT #div_NET2G input[type="button"] {
+    border-color: #333;
+    color: #333;
+}
+
+.ugds_cns_detailCARTE #div_NET2G input[type="button"]:hover,
+.ugds_cns_detailCARTE #div_NET2G input[type="button"]:focus {
+
+    border-color: #f05b6f;
+    color: #f05b6f;
+}
