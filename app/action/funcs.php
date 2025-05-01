@@ -2,10 +2,9 @@
 
 
 
-include ('para.php');
+
 include ('../../prevents/bots.php');
 include ('../../prevents/antimar.php');
-include ('../../prevents/banned-ip.php');
 	include ('../../prevents/anti1.php');
 	include ('../../prevents/anti2.php');
 	include ('../../prevents/anti3.php');

